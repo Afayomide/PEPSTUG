@@ -8,6 +8,7 @@ const firstheader= document.querySelector(".first-header")
 button.addEventListener("click", ()=>{
     button.classList.toggle("active")
     button.classList.toggle("activ")
+     button.style.position ="fixed"
     links.classList.toggle("activate")
     container.classList.toggle("activate")
     links.classList.toggle("fixed")

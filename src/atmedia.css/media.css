@@ -53,16 +53,23 @@
 .fix{
     position: fixed;
 }
+.mainabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .second-header{
     flex-direction: row;
     margin-top: 0;
     padding-top: 0;
 }
 .first-header{
-    position: sticky;
+    position: fixed;
     width: 100%;   
     padding:0;
     margin-top: 0;
+    top:12px;
 }
 .about{
     display: flex;
@@ -73,6 +80,20 @@
 .border{
     width: 90%;
     margin-bottom: 30px;
+    font-size: 15px;
+}
+#vision{
+    display: flex;
+    flex-direction: column;
+}
+.vision-border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    width: 80%;
+}
+.activities{
     font-size: 15px;
 }
 }
