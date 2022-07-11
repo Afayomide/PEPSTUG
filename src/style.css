@@ -118,6 +118,9 @@ span{
     flex-direction: column;
    justify-content: center;
    background: rgb(45, 45, 105);
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   padding-bottom: 60px;
 }
 .mainabout{
     display: flex;
@@ -131,6 +134,9 @@ span{
     font-weight: 900;
     font-size: 30px;
     color: white;
+    background-color: rgb(72, 72, 122);
+    border-radius: 20px;
+    padding: 25px;
 }
 .activitieslist {
     display: flex;
@@ -138,7 +144,10 @@ span{
 list-style-type: disc;
 font-size: larger;
 width: 80%;
-color: white
+color: white;
+background-color: rgb(72, 72, 122);
+        border-radius: 20px;
+        padding: 30px;
 }
 .activitieslist li{
     margin-top: 30px;

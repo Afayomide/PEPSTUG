@@ -5,6 +5,7 @@ const container= document.querySelector(".container")
 const nav = document.querySelector("nav")
 const firstbody= document.querySelector(".body")
 const firstheader= document.querySelector(".first-header")
+const body = document.querySelector("body")
 button.addEventListener("click", ()=>{
     button.classList.toggle("active")
     button.classList.toggle("activ")
